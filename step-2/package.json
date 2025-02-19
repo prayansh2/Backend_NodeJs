@@ -1,0 +1,12 @@
+{
+  "name": "module_system",
+  "version": "1.0.0",
+  "description": "understanding the concept of module in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+    "type": "module"
+}
