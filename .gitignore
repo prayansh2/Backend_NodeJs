@@ -1,0 +1,13 @@
+**/node_modules/
+# ../node_modules/
+# step-3/node_modules/
+**/dist/
+**/build/
+**/.env
+**/.DS_Store
+**/coverage/
+**/logs/
+**/tmp/
+**/out/
+node_modules/
+.gitngnore
