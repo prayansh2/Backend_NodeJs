@@ -1,16 +1,5 @@
 const express=require("express")
-const mongoose=require("mongoose")
-
-
-const app=express();
-
-const connectMongo= ()=>{
-   return mongoose.connect('mongodb://127.0.0.1/CourseDatabase')
-    
-   
-}
-
-connectMongo();
+const connectMongo=require("./db/dbServer")
 
 app.get("/health",(req,res)=>{
     res.status(200).send("monggose is working fine and server is un and running..");
